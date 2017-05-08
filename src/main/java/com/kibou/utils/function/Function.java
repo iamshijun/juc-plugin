@@ -1,0 +1,5 @@
+package com.kibou.utils.function;
+
+public interface Function<T, R> {
+    R apply(T t);
+}
